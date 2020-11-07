@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1052959541994",
+    "firebase_url": "https://appbitsware.firebaseio.com",
+    "project_id": "appbitsware",
+    "storage_bucket": "appbitsware.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052959541994:android:ff43533e9038bf78e5a593",
+        "android_client_info": {
+          "package_name": "com.example.appbitsware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052959541994-o0uq9bigtm4pspis0ht1l9knri45v8f9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appbitsware",
+            "certificate_hash": "add729f26ea5a26fe1768badfe75389f94282345"
+          }
+        },
+        {
+          "client_id": "1052959541994-fi8pa2vbd5qedstoqna8mo0bdq783nsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB62WR2PbdqKHrBnu2zjW_9467y8j4t46c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052959541994-fi8pa2vbd5qedstoqna8mo0bdq783nsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_cursos"
+            android:title="@string/menu_cursos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_download"
+            android:title="@string/menu_descargas" />
+
+
+        <item
+            android:id="@+id/progreso"
+            android:icon="@drawable/ic_progreso"
+            android:title="Mi progreso" />
+        <item
+            android:id="@+id/herramientas"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Comprar cursos" />
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/cerrarSesion"
+            android:icon="@drawable/ic_exit"
+            android:title="Cerrar Sesión" />
+
+
+
+    </group>
+</menu>

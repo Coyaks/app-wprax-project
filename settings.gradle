@@ -1,0 +1,2 @@
+rootProject.name='AppBitsware'
+include ':app'

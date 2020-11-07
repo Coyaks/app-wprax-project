@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.appbitsware.ui.home_curso.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.appbitsware.ui.cursos.MisCursosFragment"
+        android:label="@string/menu_cursos"
+        tools:layout="@layout/fragment_mis_cursos" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.appbitsware.ui.descargas.SlideshowFragment"
+        android:label="@string/menu_descargas"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/progreso"
+        android:name="com.example.appbitsware.progreso"
+        android:label="fragment_progreso"
+        tools:layout="@layout/fragment_progreso" />
+
+
+    <fragment
+        android:id="@+id/herramientas"
+        android:name="com.example.appbitsware.herramientas"
+        android:label="fragment_herramientas"
+        tools:layout="@layout/fragment_herramientas" />
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.example.appbitsware.perfil"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/cerrarSesion"
+        android:name="com.example.appbitsware.cerrarSesion"
+        android:label="fragment_cerrar_sesion"
+        tools:layout="@layout/fragment_cerrar_sesion" />
+</navigation>
